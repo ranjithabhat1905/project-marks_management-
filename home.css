@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(https://prmceam.ac.in/wp-content/uploads/2015/03/background-learner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    flex-wrap: wrap;
+  }
+  
+  /* Style the content */
+  
+  .main-title {
+    font-family:"Trebuchet MS";
+    font-size:30px;
+    color:#FFF;
+    padding: 10px;
+    height: 200px;
+    /* Should be removed. Only for demonstration */
+  }
+  .main-title {
+    background-color:rgba(0,0,0,0.7);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #banner
+{
+	width:99.5%;
+	height:100px;
+	border:2px solid #FFF;
+	background-color:rgba(0,0,0,0.7);
+	
+}
+
+  
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .main-title p {
+    font-family:"Segoe UI";
+    font-size: 10px;
+  }
+  
+
+  
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    position: inherit;
+    margin-top: 120px;
+    background-color: rgb(35, 243, 215);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     z-index: 2;
+    width: 10%;
+    
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+      
+}
+
+a.link:link{font-family:"Segoe UI";font-size:16px;color:#FFF;text-decoration:none;}
+a.link:active{font-family:"Segoe UI";font-size:16px;color:#FFF;text-decoration:none;}
+a.link:visited{font-family:"Segoe UI";font-size:16px;color:#FFF;text-decoration:none;}
+a.link:hover{font-family:"Segoe UI";font-size:16px;color:rgb(222, 255, 102);text-decoration:none;}
+.msg
+{
+	font-family:"Segoe UI";
+	color:#6F6;
+	font-size:13px;
+	
+}
+a.Command:link{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid #FF0;border-radius:5px;}
+a.Command:active{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid #FF0;border-radius:5px;}
+a.Command:visited{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid #FF0;border-radius:5px;}
+a.Command:hover{text-decoration:none;font-family:"Segoe UI";color:#CFC;font-size:16px;padding:5px 7px;border:2px solid #F60;border-radius:5px;box-shadow:0px 0px 10px #FFFFFF;}
